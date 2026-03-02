@@ -1,0 +1,132 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.5in]{geometry}
+% Core formatting packages
+\usepackage{longtable}
+\usepackage{array}
+
+% Remove default longtable top/bottom padding
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+\usepackage{bookmark}
+\usepackage{fontawesome}
+\usepackage{ragged2e}
+\usepackage{soul}
+\usepackage{kpfonts}
+\usepackage[T1]{fontenc}
+\pagenumbering{gobble}
+% Bibliography setup
+\usepackage[
+    style=numeric,
+    block=none,          
+    maxnames=99,         
+    sorting=none,        
+    urldate=long,        
+    uniquelist=false,    
+    uniquename=false,    
+    terseinits=true,
+    defernumbers=true   
+]{biblatex}
+
+% Add this after the package loading to control indentation
+\setlength{\bibhang}{0pt}
+% Remove "In:" prefix from venue names
+\renewcommand*{\intitlepunct}{}
+\renewbibmacro{in:}{}
+% Remove brackets and numbers completely
+\DeclareFieldFormat{labelnumber}{}
+\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{0pt}  % Remove space after label
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished,misc]{title}{#1}
+\DeclareFieldFormat{biblabelsep}{\addspace}
+\DeclareFieldFormat{note}{\textit{#1}}
+
+\setlength{\bibhang}{0pt}
+\setlength{\bibitemsep}{0.5em}
+\setlength{\bibnamesep}{0pt}
+\setlength{\bibinitsep}{0pt}
+\defbibenvironment{bibliography}
+  {\list
+     {}
+     {\setlength{\leftmargin}{0pt}%
+      \setlength{\itemindent}{0pt}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}%
+      \setlength{\topsep}{0pt}}}
+  {\endlist}
+  {\item}
+
+\addbibresource{ref.bib}
+
+% Hyperlink and color settings
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    anchorcolor=black,
+    citecolor=black,
+    pdftitle={Nathan Hu - CV},
+    pdfauthor={Nathan Hu},
+    bookmarksopen=true,
+}
+\usepackage{titlesec}
+
+% Section spacing (before, after)
+\titlespacing*{\section}
+{0pt}
+{12pt}
+{3pt}
+
+% Title formatting
+\newcommand{\mytitle}[3]{
+    \vspace*{-0.5in}
+    \begin{center}
+        \LARGE\textbf{#1}\normalsize \\[2pt]
+        \small\href{mailto:#2}{#2} $|$ \href{#3}{nathanhu0.github.io}\normalsize
+    \end{center}
+}
+
+\begin{document}
+\mytitle{Nathan Hu}{nathu@cs.stanford.edu}{https://nathanhu0.github.io}
+%\mytitle{Nathan Hu}{nathu@alumni.stanford.edu}{}{San Francisco, CA}
+\RaggedRight
+
+% Education
+\pdfbookmark[1]{Education}{}
+\section*{Education}
+\input{education.tex}
+
+% Research Experience
+\pdfbookmark[1]{Research Experience}{exp_research}
+\section*{Research Experience}
+\label{exp_research}
+\input{exp_research.tex}
+
+% Publications
+\section*{Research Output}
+\label{pubs}
+\nocite{*}
+\printbibliography[sorting=ydnt,heading=none]
+
+% Work Experience
+\pdfbookmark[1]{Additional Experience}{work}
+\section*{Additional Experience}
+\label{work}
+\input{work.tex}
+
+% % Additional Activities
+% \pdfbookmark[1]{Additional Activities}{activities}
+% \section*{Additional Activities}
+% \label{activities}
+% \input{activities.tex}
+
+% % Awards removed, all old stuff from HS
+% \pdfbookmark[1]{Awards}{awards}
+% \section*{Awards}
+% \label{awards}
+% \input{awards.tex}
+
+\end{document}

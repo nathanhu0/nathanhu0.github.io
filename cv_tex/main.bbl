@@ -1,0 +1,196 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{hu2025transcoder}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=552e6a53f6582465898448b36c700af4}{%
+           family={{\textbf{Nathan Hu}, Jake Ward, Thomas Icard, Christopher Potts}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{552e6a53f6582465898448b36c700af4}
+      \strng{fullhash}{552e6a53f6582465898448b36c700af4}
+      \strng{fullhashraw}{552e6a53f6582465898448b36c700af4}
+      \strng{bibnamehash}{552e6a53f6582465898448b36c700af4}
+      \strng{authorbibnamehash}{552e6a53f6582465898448b36c700af4}
+      \strng{authornamehash}{552e6a53f6582465898448b36c700af4}
+      \strng{authorfullhash}{552e6a53f6582465898448b36c700af4}
+      \strng{authorfullhashraw}{552e6a53f6582465898448b36c700af4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Preprint}
+      \field{title}{{Transcoder Adapters for Reasoning-Model Diffing}}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{tian2025measuringsparseautoencoderfeature}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=83bb509ceebb4666bd912d6209fa1d8c}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=14d0da9723d355c9cc411b0daaf91473}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=22c1b1cb8a9a08ba46c730fa0d9dbf2a}{%
+           family={\textbf{Nathan\bibnamedelimb Hu}},
+           familyi={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{fullhash}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{fullhashraw}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{bibnamehash}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{authorbibnamehash}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{authornamehash}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{authorfullhash}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \strng{authorfullhashraw}{3de8d1c33f17ec7c21425e88a2a768c4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mechanistic Interpretability Workshop at NeurIPS (Spotlight)}
+      \field{title}{Measuring Sparse Autoencoder Feature Sensitivity}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{hu2025reward}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3439e773122d28c0635f829b52b47880}{%
+           family={{\textbf{Nathan Hu}, Benjamin Wright, Carson Denison, Samuel Marks, Johannes Treutlein, Jonathan Uesato, Evan Hubinger}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3439e773122d28c0635f829b52b47880}
+      \strng{fullhash}{3439e773122d28c0635f829b52b47880}
+      \strng{fullhashraw}{3439e773122d28c0635f829b52b47880}
+      \strng{bibnamehash}{3439e773122d28c0635f829b52b47880}
+      \strng{authorbibnamehash}{3439e773122d28c0635f829b52b47880}
+      \strng{authornamehash}{3439e773122d28c0635f829b52b47880}
+      \strng{authorfullhash}{3439e773122d28c0635f829b52b47880}
+      \strng{authorfullhashraw}{3439e773122d28c0635f829b52b47880}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Anthropic Alignment Science Blog}
+      \field{title}{{Training on Documents About Reward Hacking Induces Reward Hacking}}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{wei2024longformfactualitylargelanguage}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=b8255a0094311b62cf9bca8e2cfca8c2}{%
+           family={{Jerry Wei, Chengrun Yang, Xinying Song, Yifeng Lu, \textbf{Nathan Hu}, Jie Huang, Dustin Tran, Daiyi Peng, Ruibo Liu, Da Huang, Cosmo Du, Quoc V. Le}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{fullhash}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{fullhashraw}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{bibnamehash}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{authorbibnamehash}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{authornamehash}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{authorfullhash}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \strng{authorfullhashraw}{b8255a0094311b62cf9bca8e2cfca8c2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{NeurIPS}
+      \field{title}{Long-form factuality in large language models}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{kong2024cpt}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=d662b36cd3c60f65f66ff1120667c978}{%
+           family={{Z. Jonny Kong, \textbf{Nathan Hu}, Y. Charlie Hu, Jiayi Meng, Yaron Koral}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{fullhash}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{fullhashraw}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{bibnamehash}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{authorbibnamehash}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{authornamehash}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{authorfullhash}{d662b36cd3c60f65f66ff1120667c978}
+      \strng{authorfullhashraw}{d662b36cd3c60f65f66ff1120667c978}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM IMC}
+      \field{title}{High-Fidelity Cellular Network Control-Plane Traffic Generation without Domain Knowledge}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{hu2023metalearning}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=08c5f33e9774b39b8e10e79b1df459e3}{%
+           family={{\textbf{Nathan Hu}, Eric Mitchell, Christopher D. Manning, Chelsea Finn}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{fullhash}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{fullhashraw}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{bibnamehash}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{authorbibnamehash}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{authornamehash}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{authorfullhash}{08c5f33e9774b39b8e10e79b1df459e3}
+      \strng{authorfullhashraw}{08c5f33e9774b39b8e10e79b1df459e3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{EMNLP}
+      \field{title}{Meta-Learning Online Adaptation of Language Models}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{anari2021sampling}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=53dbbf1a24dbaa3143b26938e854e229}{%
+           family={{Nima Anari, \textbf{Nathan Hu}, Amin Saberi, Aaron Schild}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{fullhash}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{fullhashraw}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{bibnamehash}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{authorbibnamehash}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{authornamehash}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{authorfullhash}{53dbbf1a24dbaa3143b26938e854e229}
+      \strng{authorfullhashraw}{53dbbf1a24dbaa3143b26938e854e229}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ITCS}
+      \field{title}{Sampling Arborescence in Parallel}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
